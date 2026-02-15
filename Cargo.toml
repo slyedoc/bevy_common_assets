@@ -28,7 +28,7 @@ bevy_app = { git = "https://github.com/bevyengine/bevy", branch = "main", defaul
 bevy_asset = { git = "https://github.com/bevyengine/bevy", branch = "main", default-features = false }
 bevy_reflect = { git = "https://github.com/bevyengine/bevy", branch = "main", default-features = false }
 serde_toml = { version = "0.9", package = "toml", optional = true }
-serde_ron = { version = "0.11", package = "ron", optional = true }
+serde_ron = { version = "0.12", package = "ron", optional = true }
 serde_yaml = { version = "0.9", optional = true }
 serde_json = { version = "1", optional = true }
 rmp-serde = { version = "1", optional = true }
